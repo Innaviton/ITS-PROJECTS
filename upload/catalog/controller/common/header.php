@@ -47,14 +47,14 @@ class ControllerCommonHeader extends Controller {
 			$data['logo'] = '';
 		}
 
-        if (is_file(DIR_IMAGE . $this->config->get('config_search-btn'))) {
-            $data['search-btn'] = $server . 'image/' . $this->config->get('config_search-btn');
-        } else{
-            $data['search-btn'] = '';
+        if (is_file(DIR_IMAGE . $this->config->get('config_geo'))) {
+            $data['geo'] = $server . 'image/' . $this->config->get('config_geo');
+        } else {
+            $data['geo'] = '';
         }
 
 
-		$this->load->language('common/header');
+            $this->load->language('common/header');
 		
 		
 		$host = isset($this->request->server['HTTPS']) && (($this->request->server['HTTPS'] == 'on') || ($this->request->server['HTTPS'] == '1')) ? HTTPS_SERVER : HTTP_SERVER;
