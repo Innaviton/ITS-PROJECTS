@@ -49,13 +49,8 @@
 </head>
 <body>
 <div class="block_header">
-    <img src="{{ logo }}">
-    <div class="search-menu">
-        <input type="text" id="search-block"
-               placeholder="Поиск среди товаров"
-        >
-        <button id="search-but"></button>
-    </div>
+    <img id="logoB" src="{{ logo }}">
+    {{ search }}
     <img src="{{ geo }}" >
     <span id="town"> {{ town }}</span>
     <!-- Выбор города: Москва и Московская область-->

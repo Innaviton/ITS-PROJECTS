@@ -296,7 +296,7 @@ button:active, button:focus, button{
     left: 33.24%;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: normal;
     font-size: 12px;
     line-height: 15px;
 
@@ -318,8 +318,8 @@ button:active, button:focus, button{
     font-family: 'Inter', sans-serif;
 
     font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
+    font-weight: normal;
+    font-size: 12px;
     line-height: 17px;
 
 
@@ -333,8 +333,8 @@ button:active, button:focus, button{
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
+    font-weight: normal;
+    font-size: 12px;
     line-height: 17px;
 
     color: #000000;
@@ -353,7 +353,7 @@ button:active, button:focus, button{
     font-family: 'Inter', sans-serif;
 
     font-style: normal;
-    font-weight: 600;
+    font-weight: normal;
     font-size: 14px;
     line-height: 17px;
 
@@ -747,7 +747,7 @@ button:active, button:focus, button{
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 17px;
 
@@ -778,7 +778,7 @@ button:active, button:focus, button{
     left: 33.24%;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 12px;
     line-height: 15px;
 
@@ -794,13 +794,13 @@ button:active, button:focus, button{
 
 #count{
     position: relative;
-    left: 43.71%;
+    left: 53.71%;
     top: -15.5%;
 
     font-family: 'Inter', sans-serif;
 
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 14px;
     line-height: 17px;
 
@@ -810,12 +810,12 @@ button:active, button:focus, button{
 
 #sum{
     position: relative;
-    left: 39.51%;
+    left: 49.51%;
     top: 15%;
 
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 14px;
     line-height: 17px;
 
@@ -830,12 +830,12 @@ button:active, button:focus, button{
 
 #lk{
     position: relative;
-    left: 47.17%;
+    left: 57.17%;
 
     font-family: 'Inter', sans-serif;
 
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 14px;
     line-height: 17px;
 
